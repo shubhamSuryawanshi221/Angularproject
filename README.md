@@ -5,3 +5,5 @@ ShubzCart leverages the latest web technologies to provide a lightning-fast, res
 - Smooth navigation
 - Optimized performance
 - Enhanced security"
+**********************
+ Note : FlipKart is just a name i have given to the file..
