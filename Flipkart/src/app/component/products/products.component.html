@@ -1,0 +1,79 @@
+<div class="card-top cantainer-fluid">
+    
+    <div class="container d-flex">
+        <div class="item">
+            <a>
+            <img style="height: 50px;width: 70px;" src="https://static.paisawapas.in/blog/wp-content/uploads/2017/08/Big-billion-day-offers.jpg" alt="">
+            <h6>All products</h6>
+        </a>
+
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 55px;" src="https://png.pngtree.com/png-clipart/20231109/original/pngtree-indian-couple-with-diya-png-image_13523444.png" alt="">
+                <h6>Fashion</h6>
+            </a>
+            
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 50px;" src="https://media.istockphoto.com/id/1201118294/vector/shopping-cart-box.jpg?s=612x612&w=0&k=20&c=dkvK60Fhnxmj9yA0GTuHWxTs1sZ5Sj39IA9Ry-Sss9Y=" alt="">
+                <h6>Grocery</h6>
+
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px ;width: 80px;" src="https://www.myg.in/images/blog/8/8_Benefits_of_Tablets.jpg" alt="">
+                <h6>Mobiles & Tablets</h6>
+            </a>
+            
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 80px;" src="https://www.abelectronics.in/wp-content/uploads/2023/07/electronics-removebg-preview.png" alt="">
+                <h6>Electronics</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 65px;" src="https://5.imimg.com/data5/SELLER/Default/2023/1/WR/RX/VW/2181276/xlsf-9001-sofa-set-250x250.jpg" alt="">
+                <h6>Home & furniture</h6>
+            </a>
+            
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 70px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOp9gnX-hRBlZvuJigHZpMiKcPxtSCPHGSoyqJ74a0DSqQruJFp9Tc86H0qgVW7l2YJ0&usqp=CAU" alt="">
+                <h6>Beauty</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img style="height: 50px;width: 65px;" src="https://thumbs.dreamstime.com/b/aeroplane-illustration-print-digital-use-65182743.jpg" alt="">
+                <h6>Travel</h6>
+            </a>
+            </div>
+            <div class="item">
+                <a>
+                    <img style="height: 50px;width: 65px;" src="https://www.pateljewellers.com/pub/media/catalog/category/10_Aug_63_-_n2n.jpg" alt="">
+                    <h6>Jwellary</h6>
+                </a>
+                </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of productList">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;" >{{item.title}}</h5>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+                <p><strong>Price</strong>${{item.price}}</p>
+                <button class="btn btn-warning"(click)=addtoCart(item)>Add to cart</button>
+            </div>
+        </ng-container>
+        
+    </div>
+</div>
