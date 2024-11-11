@@ -8,3 +8,4 @@ ShubzCart leverages the latest web technologies to provide a lightning-fast, res
 **********************
  Note : FlipKart is just a name i have given to the file..
  
+![shubzcart](https://github.com/user-attachments/assets/99a34d86-23c4-4561-8158-2426b49c119b)
