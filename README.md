@@ -7,5 +7,10 @@ ShubzCart leverages the latest web technologies to provide a lightning-fast, res
 - Enhanced security"
 **********************
  Note : FlipKart is just a name i have given to the file..
- 
+**********************
+#############################################
+HERE IS SOME SCREENSHOTS OF OUR PROJECT
+#############################################
 ![shubzcart](https://github.com/user-attachments/assets/99a34d86-23c4-4561-8158-2426b49c119b)
+![shubzcart2](https://github.com/user-attachments/assets/8d6937e4-faae-47e3-9465-dcf6dde90944)
+![shubzcart3](https://github.com/user-attachments/assets/1c780dfa-1374-4821-868f-ba798fefd4c0)
